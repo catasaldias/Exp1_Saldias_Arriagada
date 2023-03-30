@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    
+}
+.fondo{
+    background-color: blue;
+} 
+
+.color{
+    color: white;
+}
+    
+.slide{
+    margin: auto;
+    width: 70%;
+
+}
+
+.slide img{
+    height: 75vh;
+
+}
+.navbar{
+    -webkit-box-shadow:0px 2px 2px #dddddd;
+    -moz-box-shadow:0px 2px 2px #dddddd;
+    box-shadow:0px 2px 2px #dddddd;
+    position: static;
+    z-index: 1;
+    display: flex;
+    transition: 0.3s;
+    width: 100%;
+    top: 0;
+  }
+.card{
+    -webkit-box-shadow: 0px 0px 4px #c5c5c5;
+    -moz-box-shadow: 0px 0px 4px #c5c5c5;
+    box-shadow: 0px 0px 4px #c5c5c5;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 5px;
+    color: #596272;
+  }
+  
+.card img{
+    width: 180px;
+  }
+  
+
+#qSomos{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #596272;
+  }
+
+footer{
+    padding: 20px;
+    color: #c5c5c5;
+    background-color: #4f8649;
+    height: 280px;
+    margin-top: 20px;
+    bottom:0;
+    width: 100%;
+    clear: both;
+  }
+  
+footer div p{
+    font-size: 12px;
+    color: #888888;
+    padding-top: 5px;
+    line-height: 10px;
+    
+  }
+  
+#linkFooter{
+    color: #c5c5c5;
+    text-decoration: none;
+  }
+  
+.jardin{
+    background-color: #212529;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 7px #c5c5c5;
+    -moz-box-shadow: 0px 0px 7px #c5c5c5;
+    box-shadow: 0px 0px 7px #818181;
+    align-items: center;
+    font-size: 18px;
+  }
+
+#jardin h2{
+    color: white;
+  }
+#btnjardin{
+    background-color: #e94f37; 
+    border-color: #e94f37;
+  }
+  
+#btnjardin:hover{
+    background-color: #e23c22; 
+    border-color: #e23c22;
+  }
+@media (max-width:991px){
+    header label{
+        display: block;
+    }
+    footer{
+      height: 500px;
+    }
+    .carousel-caption{
+      color: transparent;
+    }
+    
+}
